@@ -1,0 +1,168 @@
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 16px;
+    margin: 0;
+    background-color: cornsilk
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.header {
+    margin: 0;
+    padding: 0.5em;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 16px;
+    background-color: rgb(44, 44, 44);
+    width: 100vw;
+}
+
+.right-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 16px;
+    margin-right: 1em;
+}
+
+
+.links {
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 1.2em;
+    color: white;
+
+}
+
+.links:hover {
+    border-bottom: 2px solid white;
+    cursor: pointer;
+    background-color: rgba(245, 245, 220, 0.322);
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    margin-top: 2em;
+    display: flex;
+    margin-left: auto;
+    /* Márgen izquierdo automático para centrar */
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 1em;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.342);
+    transition: 0.3s;
+
+}
+
+.main:hover {
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+#index-image {
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 35em;
+}
+
+#restaurant-h1 {
+    color: white;
+}
+
+.famous-plates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.plates {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 1em;
+    width: 22em;
+    border-radius: 7px;
+}
+
+#famous-img{
+   max-width: 100%;
+   height: auto;
+}
+img{
+    border-radius: 7px;
+}
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-top: 5em;
+  }
+
+
+
+
+@media screen and (max-width: 600px) {
+    #index-image {
+        width: 25em;
+    }
+}
